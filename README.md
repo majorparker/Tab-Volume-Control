@@ -71,4 +71,4 @@ Add hotkey support
 Please fork the repo and submit a PR.
 
 MIT License
--
+This project is licensed under MIT License. 
