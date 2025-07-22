@@ -1,0 +1,78 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  width: 320px;
+  background: #f7f7f9;
+}
+
+header {
+  background: #4f8cff;
+  color: #fff;
+  padding: 16px 0 8px 0;
+  text-align: center;
+  border-radius: 8px 8px 0 0;
+}
+
+footer {
+  text-align: center;
+  color: #888;
+  font-size: 12px;
+  padding: 8px 0 12px 0;
+}
+
+.tabs-list {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.tab-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+  display: flex;
+  align-items: center;
+  padding: 10px 12px;
+  gap: 12px;
+  transition: box-shadow 0.2s;
+}
+.tab-card:hover {
+  box-shadow: 0 2px 8px rgba(79,140,255,0.12);
+}
+
+.favicon {
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  background: #eee;
+}
+
+.tab-title {
+  flex: 1;
+  font-size: 15px;
+  color: #222;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.volume-slider {
+  width: 90px;
+  accent-color: #4f8cff;
+}
+
+.mute-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  color: #4f8cff;
+  transition: color 0.2s;
+  margin-left: 6px;
+}
+.mute-btn:hover {
+  color: #d32f2f;
+}
+  
